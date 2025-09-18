@@ -15,6 +15,11 @@ do {
   //Carga de pokemones
   pokemon.nombre = prompt("Ingrese el nombre del Pokémon:");
   pokemon.nivel = Number(prompt("Ingrese el nivel del Pokémon:"));
+  pokemon.tipo = prompt("Ingrese el tipo de su pokemon:")
+  pokemon.foto = prompt("Si quiere ingrese la url de una imagen:")
+  pokemon.hp = Number(prompt("Ingrese los hp (los puntos de salud) de su pokemon:")
+  pokemon.hp_total = Number(prompt("Ingrese los hp actuales de su pokemon:") 
+  pokemon.evolución = prompt("¿Tiene evolución? (si/no):)"                          
 
   //guardamos los datos en el array de
   pokemones.push(pokemon);
